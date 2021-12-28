@@ -1,0 +1,4 @@
+Django==3.2.10
+djangorestframework==3.10.0
+flake8==4.0.0
+
