@@ -45,7 +45,7 @@ jobs:
           # This assumes pytest is installed via the install-package step above
           command: |
             . venv/bin/activate
-            python3 ./app/manage.py test && flake8
+            python3 ./app/manage.py test
 
 
 # Invoke jobs via workflows
